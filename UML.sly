@@ -141,7 +141,10 @@
       <method isAbstract="true" isStatic="false" name="createCercle" returnType="Cercle" view="DEFAULT" visibility="PUBLIC"/>
       <method isAbstract="true" isStatic="false" name="createCarre" returnType="Carre" view="DEFAULT" visibility="PUBLIC"/>
     </entity>
-    <entity entityType="CLASS" id="28131" isAbstract="false" name="Forme" visibility="PUBLIC"/>
+    <entity entityType="CLASS" id="28131" isAbstract="false" name="Forme" visibility="PUBLIC">
+      <attribute const="false" defaultValue="" isStatic="false" name="couleur" type="Color" visibility="PRIVATE"/>
+      <attribute const="false" defaultValue="" isStatic="false" name="taille" type="float" visibility="PRIVATE"/>
+    </entity>
   </diagramElements>
   <umlView grid="10" name="Main view" open="true">
     <relationView color="-12566464" relationId="28138">
@@ -168,7 +171,7 @@
       <line>
         <point>
           <x>691</x>
-          <y>136</y>
+          <y>166</y>
         </point>
         <point>
           <x>691</x>
@@ -177,13 +180,13 @@
       </line>
       <labelAssociation>
         <x>695</x>
-        <y>217</y>
+        <y>232</y>
         <w>65</w>
         <h>16</h>
       </labelAssociation>
       <roleAssociation>
         <x>695</x>
-        <y>140</y>
+        <y>170</y>
         <w>0</w>
         <h>16</h>
       </roleAssociation>
@@ -195,7 +198,7 @@
       </roleAssociation>
       <multipliciteAssociation>
         <x>666</x>
-        <y>139</y>
+        <y>169</y>
         <w>22</w>
         <h>16</h>
       </multipliciteAssociation>
@@ -474,7 +477,7 @@
         <h>16</h>
       </roleAssociation>
       <multipliciteAssociation>
-        <x>397</x>
+        <x>383</x>
         <y>250</y>
         <w>22</w>
         <h>16</h>
@@ -508,19 +511,19 @@
       <labelAssociation>
         <x>755</x>
         <y>565</y>
-        <w>30</w>
+        <w>0</w>
         <h>16</h>
       </labelAssociation>
       <roleAssociation>
         <x>545</x>
         <y>520</y>
-        <w>30</w>
+        <w>0</w>
         <h>16</h>
       </roleAssociation>
       <roleAssociation>
         <x>965</x>
         <y>250</y>
-        <w>30</w>
+        <w>0</w>
         <h>16</h>
       </roleAssociation>
       <multipliciteAssociation>
@@ -587,7 +590,7 @@
         <x>610</x>
         <y>80</y>
         <w>150</w>
-        <h>55</h>
+        <h>85</h>
       </geometry>
     </componentView>
     <componentView color="-2079" componentID="28134" displayAttributes="true" displayDefault="true" displayMethods="true">
@@ -600,9 +603,9 @@
     </componentView>
     <componentView color="-2079" componentID="28136" displayAttributes="true" displayDefault="true" displayMethods="true">
       <geometry>
-        <x>760</x>
+        <x>720</x>
         <y>430</y>
-        <w>150</w>
+        <w>190</w>
         <h>85</h>
       </geometry>
     </componentView>
@@ -610,7 +613,7 @@
       <geometry>
         <x>460</x>
         <y>430</y>
-        <w>150</w>
+        <w>200</w>
         <h>85</h>
       </geometry>
     </componentView>
