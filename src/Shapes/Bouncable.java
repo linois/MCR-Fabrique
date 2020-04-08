@@ -1,3 +1,5 @@
+package Shapes;
+
 import java.awt.*;
 
 public interface Bouncable
@@ -6,5 +8,5 @@ public interface Bouncable
     void move();
     Renderable getRenderer();
     Color getColor();
-    Shape getShape();
+    ShapeCustom getShape();
 }

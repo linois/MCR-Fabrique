@@ -1,3 +1,7 @@
+package Renderer;
+
+import Shapes.Bouncable;
+
 import java.awt.*;
 
 public interface Renderable
